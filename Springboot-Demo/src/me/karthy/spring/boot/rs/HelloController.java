@@ -15,6 +15,7 @@ public class HelloController {
 	@RequestMapping("/getIndex")
 	public String getIndex() {
 		
+		System.out.println("Greetings from Spring Boot!"); 
 		return "Greetings from Spring Boot!";
 	}
 
